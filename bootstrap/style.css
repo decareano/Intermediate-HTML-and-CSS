@@ -1,0 +1,58 @@
+
+#site-navigation {
+  height: 100px;
+  margin-top: 20px;
+}
+
+#sign_in {
+  margin: 0 auto;
+  display: block;
+  background:black;
+  border: 1px solid white;
+  font-family: 'Quicksand', sans-serif;
+  padding:15px;
+  float: right;
+  position:relative;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  /*background-color: black;*/
+
+}
+
+body {
+  background: url("image1.jpg") no-repeat;
+}
+
+.container h1 {
+  /*padding: 150px 0px;*/
+  color: #FFFFFF;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 100px;
+  text-align:center;
+  margin-top:200px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.input-group {
+  width:300px;
+  padding:5px;
+  border-radius:5px;
+  background:none;
+  border:#CCC 2px solid;
+  color:#CCC;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#greeting {
+  color: #FFF;
+  font-family: 'Quicksand', sans-serif;
+}
+
