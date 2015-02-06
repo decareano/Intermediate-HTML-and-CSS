@@ -1,0 +1,50 @@
+#selected-plays {
+  background-color:gray;
+}
+
+.large-title {
+  font-size:2em;
+  margin:0 0 10px 0;
+}
+
+/*2 Solutions for number 3*/
+
+td:nth-child(3) {
+  background-color:gray;
+}
+
+td:nth-of-type(3) {
+}
+
+/*Two solutions to number 4*/
+
+li li {
+  color:red;
+}
+
+li li li {
+  color:black;
+}
+
+#selected-plays > li > ul > li {
+  color:red;
+}
+
+/*Two solutions to number 5*/
+
+tr:nth-child(odd) {
+  background-color:gray;
+}
+
+tr:nth-of-type(odd) {
+  background-color:gray;
+}
+
+a[href$=".pdf"] {
+  color:blue;
+  font-size:2em;
+}
+
+a[href*="asyoulikeit"] {
+  color:orange;
+}
